@@ -1,0 +1,46 @@
+.img-16 {
+	height: 16px;
+}
+
+.img-28r, .img-16r {
+    margin-right: 0;
+    margin-left: 0.25rem;
+}
+
+.confbox, .warnbox {
+    width: 50%;
+	min-height: 58px;
+    height: initial;
+    margin: 1em;
+	padding: 12px;
+	text-align: center;
+    text-decoration: none;
+}
+
+/*
+.confbox {
+	background: rgba(200,255,200,0.5);
+    border: solid 1px rgb(0,190,0);
+}
+
+.confbox h2, .confbox p{
+	margin: none;
+    color: rgb(0,100,0);
+    text-decoration: none;
+}
+
+.warnbox {
+	background: rgba(255,200,200,0.5);
+    border: solid 1px rgb(190,0,0);
+}
+
+.warnbox h2, .warnbox p{
+	margin: none;
+    color: rgb(100,0,0);
+    text-decoration: none;
+}
+*/
+
+.widebox {
+    width: auto;
+}

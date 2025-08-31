@@ -1,0 +1,134 @@
+<html>
+	<head>
+		<title>Manawatu Concert Band</title>
+		<link href="mcb.css" rel="stylesheet" type="text/css" />
+		<link href="portal.css" rel="stylesheet" type="text/css" />
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        <link rel="icon" href="favicon.ico" type="image/x-icon">
+	</head>
+	
+	<body>
+				<div id="headbar">
+			<div id="header">
+				<div id="headerinner">
+					<ul id="nav">
+						<a href="index.html"><div >Home</div></a><a href="index.html%3Fp=events.html"><div>Events</div></a><a href="index.html%3Fp=news.html"><div>News</div></a><a href="index.html%3Fp=join.html"><div>Join</div></a><a href="index.html%3Fp=contact.html"><div>Contact</div></a><a href="portal.php.html"><div class="current navspecial"><img class="inline-icon-16" src="images/icon_login.png" alt="PMembers Login" />&nbsp;Members&ensp;Login</div></a>					</ul>
+				</div>
+			</div>
+		</div>
+		<div id="container">
+			<div id="contents">
+				<head>
+	<style>
+		label {
+            width: 100px;
+            display: inline-block;
+		}
+        input, select {
+            margin-bottom: 0.5em;
+        }
+        input[type="radio"] {
+            margin-bottom: 1em;
+        }
+	</style>
+    <script src="scripts/jquery.min.js"></script>
+</head>
+<!--<br /><br />
+<p><strong>Registration is currently disabled.</strong><br />If you are a band member and wish to create an account, please contact the website administrator.</p>
+<br /><br />-->
+<div class="bar">
+	<div class="infobar" id="userinfo">
+    <p>	</div>
+    <p>&nbsp;<br>&nbsp;</p>
+	<h1>Register</h1>
+</div><form id="regform" action="portal.php%3Fp=register.html" method="post">
+    <label>Username:</label>
+    <input type="text" id="un" name="username" value="" /> <br>
+	<label>E-Mail:</label>
+    <input type="text" name="email" value="" /> <br>
+    <br> 
+	<label>First name:</label>
+    <input type="text" id="fn" name="firstname" value="" /> <br>
+	<label>Last name:</label>
+    <input type="text" id="ln" name="lastname" value="" /> <br>
+    <br> 
+    <label>Password:</label>
+    <input type="password" id="pw" name="password" value="" /> <br>
+    <br> 
+    <script>
+        $("#regform input").keypress(function(event) {
+            if (event.keyCode == 13) {
+                event.preventDefault();
+                $("#regform").submit();
+            }
+        });
+    </script>
+    <style>
+        #regform strong {
+            width: 70%;
+        }
+        #regform strong, #regform ul * {
+            text-align: justified;
+            font-size: 0.9em;
+        }
+    </style>
+    <strong>NB: The Members Portal is a secure area of the website, for band members only.</strong><br>
+    <ul>
+        <li>All accounts must be confirmed by the site administrator.</li>
+        <li>Upon registering, the administrator will be notified and if your account is valid, it will be activated within 24 hours.</li>
+        <li>Until then, you will not be able to log in. You will receive an email notification when your account has been approved.</li>
+    </ul>
+    <head>
+    <style>
+        .btn {
+            text-decoration: none;
+            border: solid 0.1em #ccc;
+            border-radius: 0.4em;
+            padding: 0em;
+            padding-left: 0.25em;
+            padding-right: 0.25em;
+        }
+        .btn:hover {
+            background: #ddd;
+        }
+        .btn-danger:hover {
+            background: #fcc;
+        }
+    </style>
+</head>
+<div style="padding-top: 1rem;padding-bottom: 1rem;display:inline-block;"><a class="btn" style="font-size: 1em; padding-bottom: 0.25em;border-radius:0;border-top-left-radius:0.75em;border-bottom-left-radius:0.75em;padding-left:0.25em;padding-right:0.5em;"
+            href="portal.php%3Fp=login.html"><img class="img-16" style="vertical-align: text-bottom;" src="images/cpanel/back.png"><strong style="vertical-align: middle">Back</strong></a></div>&ensp;<div style="padding-top: 1rem;padding-bottom: 1rem;display:inline-block;"><a class="btn" onclick="$('#regform').submit(); return false;" style="font-size: 1em; padding-bottom: 0.25em;border-radius:0;border-top-right-radius:0.75em;border-bottom-right-radius:0.75em;padding-left:0.5em;padding-right:0.25em;"
+            href="javascript:()"><strong style="vertical-align: middle">Register</strong><img class="img-16 img-16r" style="vertical-align: text-bottom;" src="images/cpanel/forward.png"></a></div></form>
+
+
+
+
+
+				<div id="footcontainer" class="fullcolumn">
+    <div id="footer">
+        <a href="index.php.html">Home
+        </a>&emsp;<a href="index.php%3Fp=events.html">Events
+        </a>&emsp;<a href="index.php%3Fp=news.html">News
+                </a>&emsp;<a href="index.php%3Fp=join.html">Join
+        </a>&emsp;<a href="index.php%3Fp=contact.html">Contact</a>
+        <p>&copy; Copyright 2025 Manawatu Concert Band</p>
+        <a href="https://www.facebook.com/Manawatu-Concert-Band-540888722918012/"><img class="socialmediabtn" src="images/fb_logo_small.png" alt="Find us on Facebook" />MCB on Facebook</a>
+    </div>
+</div>			</div>
+			<div id="pagebottom"></div>
+		</div>
+	</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
