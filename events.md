@@ -6,7 +6,7 @@
 
 **Date:** Saturday, November 15th  
 **Time:** 7.30pm  
-**Description:** Music from Movies, TV, Films and more.
+**Description:** Including Toto, Great Rubber Chicken Galop.
 
 ---
 
