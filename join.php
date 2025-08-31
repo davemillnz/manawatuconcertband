@@ -132,21 +132,21 @@
                         <h2>Current Vacancies</h2>
                         <div class="vacancies-list">
                             <div class="vacancy-item">
-                                <div class="vacancy-instrument">🎷 Bassoon</div>
+                                <div class="vacancy-instrument">🎼 Bassoon</div>
                                 <div class="vacancy-details">
                                     <span class="vacancy-count">x1</span>
                                     <span class="vacancy-grade">Grade 5 min.</span>
                                 </div>
                             </div>
                             <div class="vacancy-item">
-                                <div class="vacancy-instrument">🎺 French Horn</div>
+                                <div class="vacancy-instrument">🎼 French Horn</div>
                                 <div class="vacancy-details">
                                     <span class="vacancy-count">x1</span>
                                     <span class="vacancy-grade">Grade 5 min.</span>
                                 </div>
                             </div>
                             <div class="vacancy-item">
-                                <div class="vacancy-instrument">🎵 Tenor Trombone</div>
+                                <div class="vacancy-instrument">🎼 Tenor Trombone</div>
                                 <div class="vacancy-details">
                                     <span class="vacancy-count">x1</span>
                                     <span class="vacancy-grade">Grade 5 min.</span>
