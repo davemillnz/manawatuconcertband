@@ -53,6 +53,8 @@
     <!-- Hero Section -->
     <section id="home" class="hero">
         <div class="hero-background">
+            <div class="hero-image-overlay"></div>
+            <img src="old/manawatuconcertband.org.nz/manawatuconcertband.org.nz/images/genrow20151107.jpg" alt="Manawatu Concert Band performing live" class="hero-background-image">
             <div class="musical-notes">
                 <div class="note note-1">♪</div>
                 <div class="note note-2">♫</div>
@@ -84,9 +86,12 @@
                     <p>We have two major concerts a year (May/June and October/November) as well as local festivals (Feilding Festival of Bands) and community play-outs. We regularly win Gold or Silver awards at the Feilding Festival of Bands and have also won additional awards for Best Soloist and Most Entertaining Programme.</p>
                 </div>
                 <div class="about-image">
-                    <div class="image-placeholder">
-                        <span class="music-icon">🎵</span>
-                        <p>Band Performance</p>
+                    <div class="band-image-container">
+                        <img src="old/manawatuconcertband.org.nz/manawatuconcertband.org.nz/images/genrow20151107.jpg" alt="Manawatu Concert Band performing live" class="band-image">
+                        <div class="image-overlay">
+                            <span class="overlay-icon">🎼</span>
+                            <p>Live Performance</p>
+                        </div>
                     </div>
                 </div>
             </div>

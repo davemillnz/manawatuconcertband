@@ -145,6 +145,26 @@ h1, h2, h3, h4, h5, h6 {
     overflow: hidden;
 }
 
+.hero-background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+}
+
+.hero-image-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, rgba(102, 126, 234, 0.8) 0%, rgba(118, 75, 162, 0.8) 100%);
+    z-index: 2;
+}
+
 .hero-background {
     position: absolute;
     top: 0;
@@ -158,6 +178,7 @@ h1, h2, h3, h4, h5, h6 {
     position: absolute;
     width: 100%;
     height: 100%;
+    z-index: 3;
 }
 
 .note {
@@ -287,23 +308,55 @@ h1, h2, h3, h4, h5, h6 {
     justify-content: center;
 }
 
-.image-placeholder {
-    width: 300px;
-    height: 300px;
-    background: linear-gradient(135deg, #667eea, #764ba2);
+.band-image-container {
+    width: 350px;
+    height: 350px;
     border-radius: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    text-align: center;
-    box-shadow: 0 20px 40px rgba(102, 126, 234, 0.3);
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
 }
 
-.music-icon {
-    font-size: 4rem;
-    margin-bottom: 1rem;
+.band-image-container:hover {
+    transform: scale(1.05);
+    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.4);
+}
+
+.band-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all 0.3s ease;
+}
+
+.image-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(transparent, rgba(0, 0, 0, 0.7));
+    color: white;
+    padding: 2rem 1rem 1rem;
+    text-align: center;
+    transform: translateY(100%);
+    transition: all 0.3s ease;
+}
+
+.band-image-container:hover .image-overlay {
+    transform: translateY(0);
+}
+
+.overlay-icon {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    display: block;
+}
+
+.image-overlay p {
+    margin: 0;
+    font-weight: 600;
+    font-size: 1.1rem;
 }
 
 /* History Section */
@@ -782,6 +835,12 @@ h1, h2, h3, h4, h5, h6 {
         gap: 2rem;
     }
     
+    .band-image-container {
+        width: 300px;
+        height: 300px;
+        margin: 0 auto;
+    }
+    
     .timeline-item {
         flex-direction: column;
         text-align: center;
@@ -1006,6 +1065,35 @@ h1, h2, h3, h4, h5, h6 {
 .event-card.featured {
     border: 3px solid #e74c3c;
     background: linear-gradient(135deg, #fff 0%, #fff5f5 100%);
+    position: relative;
+    overflow: hidden;
+}
+
+.event-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+
+.event-background-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.1;
+    transition: all 0.3s ease;
+}
+
+.event-image-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.95) 0%, rgba(255, 245, 245, 0.95) 100%);
+    z-index: 1;
 }
 
 .event-card.featured::before {
@@ -1058,6 +1146,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .event-content {
     flex: 1;
+    position: relative;
+    z-index: 2;
 }
 
 .event-title {

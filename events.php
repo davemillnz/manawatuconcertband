@@ -86,6 +86,10 @@
                 </div>
                 
                 <div class="event-card featured">
+                    <div class="event-image">
+                        <img src="old/manawatuconcertband.org.nz/manawatuconcertband.org.nz/images/genrow20151107.jpg" alt="Manawatu Concert Band performing live" class="event-background-image">
+                        <div class="event-image-overlay"></div>
+                    </div>
                     <div class="event-date">
                         <div class="event-month">NOV</div>
                         <div class="event-day">15</div>
