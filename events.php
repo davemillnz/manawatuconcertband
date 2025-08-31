@@ -159,14 +159,14 @@
                     <h3>Annual Concert Schedule</h3>
                     <div class="schedule-timeline">
                         <div class="schedule-item">
-                            <div class="schedule-season">Spring</div>
+                            <div class="schedule-season">Autumn</div>
                             <div class="schedule-content">
                                 <h4>May/June Concert</h4>
                                 <p>Annual spring performance featuring a variety of musical styles</p>
                             </div>
                         </div>
                         <div class="schedule-item">
-                            <div class="schedule-season">Autumn</div>
+                            <div class="schedule-season">Spring</div>
                             <div class="schedule-content">
                                 <h4>October/November Concert</h4>
                                 <p>Annual autumn performance with seasonal themes</p>
