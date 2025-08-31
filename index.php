@@ -27,7 +27,7 @@
                     <a href="#home" class="nav-link active">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#events" class="nav-link">Events</a>
+                    <a href="events.php" class="nav-link">Events</a>
                 </li>
                 <li class="nav-item">
                     <a href="#news" class="nav-link">News</a>
@@ -163,7 +163,7 @@
                     <h4>Quick Links</h4>
                     <ul class="footer-links">
                         <li><a href="#home">Home</a></li>
-                        <li><a href="#events">Events</a></li>
+                        <li><a href="events.php">Events</a></li>
                         <li><a href="#news">News</a></li>
                         <li><a href="join.php">Join</a></li>
                         <li><a href="#contact">Contact</a></li>

@@ -15,10 +15,12 @@ A sleek, modern website for the Manawatu Concert Band, built with HTML5, CSS3, a
 
 ```
 ├── index.php           # Main website page (PHP)
+├── events.php          # Events page (PHP)
 ├── join.php            # Join Us page (PHP)
 ├── styles.css          # Modern CSS with musical theme
 ├── script.js           # Interactive JavaScript functionality
 ├── index.md            # Content from old website (for reference)
+├── events.md           # Events content (for reference)
 ├── join.md             # Join Us content (for reference)
 ├── header.md           # Header information (for reference)
 ├── old/                # Original website files (for reference)
@@ -30,8 +32,9 @@ A sleek, modern website for the Manawatu Concert Band, built with HTML5, CSS3, a
 ### PHP Hosting (Recommended)
 1. Upload all files to your PHP-enabled web server
 2. Access the main site through `index.php`
-3. Access the Join Us page through `join.php`
-4. All functionality works seamlessly with PHP
+3. Access the Events page through `events.php`
+4. Access the Join Us page through `join.php`
+5. All functionality works seamlessly with PHP
 
 ## Browser Support
 

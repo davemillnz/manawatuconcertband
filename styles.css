@@ -878,6 +878,228 @@ h1, h2, h3, h4, h5, h6 {
     }
 }
 
+/* Events Page Styles */
+.events-section {
+    margin-bottom: 4rem;
+}
+
+.event-card {
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: all 0.3s ease;
+    border: 1px solid #f0f0f0;
+}
+
+.event-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.15);
+}
+
+.event-card.featured {
+    border: 3px solid #e74c3c;
+    background: linear-gradient(135deg, #fff 0%, #fff5f5 100%);
+}
+
+.event-card.featured::before {
+    content: 'FEATURED';
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: #e74c3c;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+.event-card {
+    position: relative;
+    display: flex;
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.event-date {
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: white;
+    padding: 1.5rem;
+    border-radius: 15px;
+    text-align: center;
+    min-width: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 10px 25px rgba(102, 126, 234, 0.3);
+}
+
+.event-month {
+    font-size: 1.2rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 0.5rem;
+}
+
+.event-day {
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 1;
+}
+
+.event-content {
+    flex: 1;
+}
+
+.event-title {
+    color: #2c3e50;
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.event-details {
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 1rem;
+    flex-wrap: wrap;
+}
+
+.event-time,
+.event-date-full {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: #666;
+    font-size: 1rem;
+}
+
+.event-icon {
+    font-size: 1.2rem;
+}
+
+.event-description {
+    color: #555;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+}
+
+.event-actions {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.no-events {
+    text-align: center;
+    padding: 3rem;
+    background: #f8f9fa;
+    border-radius: 15px;
+    border: 2px dashed #dee2e6;
+}
+
+.no-events-icon {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    opacity: 0.5;
+}
+
+.no-events p {
+    color: #6c757d;
+    font-size: 1.1rem;
+    margin: 0;
+}
+
+.schedule-details {
+    margin-top: 3rem;
+}
+
+.schedule-details h3 {
+    color: #2c3e50;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.schedule-timeline {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.schedule-item {
+    display: flex;
+    margin-bottom: 2rem;
+    align-items: flex-start;
+    gap: 2rem;
+}
+
+.schedule-season {
+    background: linear-gradient(135deg, #3498db, #2980b9);
+    color: white;
+    padding: 1rem 1.5rem;
+    border-radius: 25px;
+    font-weight: 600;
+    font-size: 1rem;
+    min-width: 120px;
+    text-align: center;
+    box-shadow: 0 10px 25px rgba(52, 152, 219, 0.3);
+}
+
+.schedule-content {
+    flex: 1;
+    padding-top: 0.5rem;
+}
+
+.schedule-content h4 {
+    color: #2c3e50;
+    margin-bottom: 0.5rem;
+    font-size: 1.3rem;
+}
+
+.schedule-content p {
+    color: #666;
+    line-height: 1.6;
+    margin: 0;
+}
+
+/* Responsive Events */
+@media (max-width: 768px) {
+    .event-card {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .event-date {
+        min-width: auto;
+        width: 100px;
+        margin: 0 auto;
+    }
+    
+    .event-details {
+        justify-content: center;
+    }
+    
+    .event-actions {
+        justify-content: center;
+    }
+    
+    .schedule-item {
+        flex-direction: column;
+        text-align: center;
+        gap: 1rem;
+    }
+    
+    .schedule-season {
+        min-width: auto;
+        width: fit-content;
+        margin: 0 auto;
+    }
+}
+
 @media (max-width: 480px) {
     .hero-title {
         font-size: 2rem;
