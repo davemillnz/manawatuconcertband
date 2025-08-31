@@ -460,6 +460,337 @@ h1, h2, h3, h4, h5, h6 {
     color: #95a5a6;
 }
 
+/* Join Us Page Styles */
+.page-header {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    padding: 8rem 0 4rem;
+    text-align: center;
+    color: white;
+    position: relative;
+    overflow: hidden;
+}
+
+.page-header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="50%" font-size="60" fill="rgba(255,255,255,0.1)">♪♫♩♬</text></svg>') repeat;
+    opacity: 0.3;
+}
+
+.page-header-content {
+    position: relative;
+    z-index: 2;
+}
+
+.page-title {
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.page-subtitle {
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+    opacity: 0.9;
+    font-weight: 300;
+}
+
+.page-header-divider {
+    width: 100px;
+    height: 4px;
+    background: white;
+    margin: 0 auto;
+    border-radius: 2px;
+}
+
+.join-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    margin-bottom: 2rem;
+}
+
+.content-card {
+    background: white;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+    border: 1px solid #f0f0f0;
+    transition: all 0.3s ease;
+}
+
+.content-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+}
+
+.content-card h2 {
+    color: #2c3e50;
+    margin-bottom: 1.5rem;
+    font-size: 1.8rem;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 0.5rem;
+}
+
+.content-card p {
+    margin-bottom: 1rem;
+    line-height: 1.7;
+    color: #555;
+}
+
+.content-card a {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.content-card a:hover {
+    color: #2980b9;
+    text-decoration: underline;
+}
+
+/* Rehearsal Info */
+.rehearsal-info {
+    margin: 1.5rem 0;
+}
+
+.info-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    background: #f8f9fa;
+    border-radius: 10px;
+    border-left: 4px solid #3498db;
+}
+
+.info-icon {
+    font-size: 2rem;
+    margin-right: 1rem;
+    flex-shrink: 0;
+}
+
+.info-content h4 {
+    color: #2c3e50;
+    margin-bottom: 0.3rem;
+    font-size: 1.1rem;
+}
+
+.info-content p {
+    margin: 0;
+    color: #666;
+    font-size: 0.95rem;
+}
+
+/* Skill Level */
+.skill-level-content {
+    display: flex;
+    align-items: flex-start;
+    gap: 1.5rem;
+}
+
+.skill-image {
+    flex-shrink: 0;
+}
+
+.skill-image .music-icon {
+    font-size: 4rem;
+    color: #3498db;
+}
+
+.skill-text {
+    flex: 1;
+}
+
+.skill-text strong {
+    color: #e74c3c;
+}
+
+/* Fee Highlight */
+.fee-highlight {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: white;
+    padding: 2rem;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.fee-amount {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #f39c12;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.fee-details p {
+    margin: 0 0 0.5rem 0;
+    font-size: 1.1rem;
+}
+
+.fee-note {
+    font-size: 0.9rem;
+    opacity: 0.8;
+    font-style: italic;
+}
+
+/* Vacancies */
+.vacancies-list {
+    margin: 1.5rem 0;
+}
+
+.vacancy-item {
+    background: #f8f9fa;
+    padding: 1.5rem;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    border-left: 4px solid #e74c3c;
+    transition: all 0.3s ease;
+}
+
+.vacancy-item:hover {
+    transform: translateX(5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.vacancy-instrument {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #2c3e50;
+    margin-bottom: 0.5rem;
+}
+
+.vacancy-details {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.vacancy-count {
+    background: #e74c3c;
+    color: white;
+    padding: 0.3rem 0.8rem;
+    border-radius: 15px;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.vacancy-grade {
+    background: #3498db;
+    color: white;
+    padding: 0.3rem 0.8rem;
+    border-radius: 15px;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.vacancy-note {
+    font-style: italic;
+    color: #7f8c8d;
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+}
+
+.vacancy-footer {
+    background: #ecf0f1;
+    padding: 1rem;
+    border-radius: 8px;
+    margin: 1.5rem 0;
+    text-align: center;
+}
+
+.vacancy-footer p {
+    margin: 0.5rem 0;
+    font-size: 0.9rem;
+}
+
+.vacancy-info {
+    background: #fff3cd;
+    border: 1px solid #ffeaa7;
+    padding: 1rem;
+    border-radius: 8px;
+    margin-top: 1.5rem;
+}
+
+.vacancy-info p {
+    margin: 0.5rem 0;
+    color: #856404;
+}
+
+/* Instrumentation Table */
+.instrumentation-table {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+    margin-top: 1.5rem;
+}
+
+.instrument-group h4 {
+    color: #2c3e50;
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid #3498db;
+    text-align: center;
+}
+
+.instrument-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #ecf0f1;
+}
+
+.instrument-name {
+    color: #555;
+    font-weight: 500;
+}
+
+.instrument-count {
+    background: #3498db;
+    color: white;
+    padding: 0.2rem 0.6rem;
+    border-radius: 12px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    min-width: 30px;
+    text-align: center;
+}
+
+/* Call to Action */
+.cta-content {
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.cta-content h2 {
+    color: #2c3e50;
+    margin-bottom: 1rem;
+    font-size: 2.5rem;
+}
+
+.cta-content p {
+    color: #666;
+    margin-bottom: 2rem;
+    font-size: 1.2rem;
+}
+
+.cta-buttons {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
     .hamburger {
@@ -512,6 +843,38 @@ h1, h2, h3, h4, h5, h6 {
     
     .nav-container {
         padding: 1rem;
+    }
+    
+    .join-content {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+    
+    .page-title {
+        font-size: 2.5rem;
+    }
+    
+    .page-subtitle {
+        font-size: 1.1rem;
+    }
+    
+    .fee-highlight {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .skill-level-content {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .instrumentation-table {
+        grid-template-columns: 1fr;
+    }
+    
+    .cta-buttons {
+        flex-direction: column;
+        align-items: center;
     }
 }
 
