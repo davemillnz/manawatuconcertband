@@ -14,11 +14,12 @@ A sleek, modern website for the Manawatu Concert Band, built with HTML5, CSS3, a
 ## File Structure
 
 ```
-├── index.html          # Main HTML file
-├── index.php           # PHP wrapper for hosting
+├── index.php           # Main website page (PHP)
+├── join.php            # Join Us page (PHP)
 ├── styles.css          # Modern CSS with musical theme
 ├── script.js           # Interactive JavaScript functionality
 ├── index.md            # Content from old website (for reference)
+├── join.md             # Join Us content (for reference)
 ├── header.md           # Header information (for reference)
 ├── old/                # Original website files (for reference)
 └── README.md           # This file
@@ -26,18 +27,11 @@ A sleek, modern website for the Manawatu Concert Band, built with HTML5, CSS3, a
 
 ## Setup Instructions
 
-### Option 1: Direct HTML (Recommended for Development)
-1. Simply open `index.html` in a web browser
-2. All functionality will work locally
-
-### Option 2: PHP Hosting (Recommended for Production)
+### PHP Hosting (Recommended)
 1. Upload all files to your PHP-enabled web server
-2. Access the site through `index.php`
-3. The site will work exactly the same as the HTML version
-
-### Option 3: Static Hosting
-1. Upload `index.html`, `styles.css`, and `script.js` to any static hosting service
-2. Ensure the favicon path is correct (currently points to the old folder)
+2. Access the main site through `index.php`
+3. Access the Join Us page through `join.php`
+4. All functionality works seamlessly with PHP
 
 ## Browser Support
 
