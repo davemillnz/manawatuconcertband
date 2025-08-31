@@ -54,9 +54,23 @@
     <section class="page-header">
         <div class="container">
             <div class="page-header-content">
-                <h1 class="page-title">Events</h1>
-                <p class="page-subtitle">Upcoming performances and concerts</p>
+                <h1 class="page-title">🎭 Events</h1>
+                <p class="page-subtitle">Experience the magic of live music with the Manawatu Concert Band</p>
                 <div class="page-header-divider"></div>
+                <div class="header-stats">
+                    <div class="stat-item">
+                        <span class="stat-number">2</span>
+                        <span class="stat-label">Major Concerts</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">45</span>
+                        <span class="stat-label">Band Members</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">30+</span>
+                        <span class="stat-label">Years of Music</span>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
